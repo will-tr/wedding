@@ -1,0 +1,96 @@
+<!doctype HTML>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+  </head>
+  <body data-spy="scroll">
+
+
+<!--
+        <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+        </button>
+        <a href="#" class="navbar-brand">DinaAndWill.com</a>
+
+-->
+  <header>
+    <ul class = "nav nav-tabs active" role="tablist" data-tabs="tabs" id="nav">
+      <li  role="presentation">
+        <a href="#home" data-toggle="tab">
+          Home
+          <i class="fa fa-home"></i>
+        </a>
+      </li>
+
+      <li role="presentation"  id="m" >
+        <a href="#map" data-toggle="tab">Location
+          <i class="fa fa-map-marker"></i>
+        </a>
+      </li>
+      
+      <li role="presentation" >
+        <a href="#test2" data-toggle="tab">Test2
+          <i class="fa fa-map-marker"></i>
+        </a>
+      </li>
+    </ul>
+  </header> 
+
+  <div class='tab-content'>
+    <section id="home" class="center-block tab-pane active">
+      <h2 class="save-text">Save the Date!</h2>
+      <h2 class="save-date">Sept. 26, 2015</h2>
+    </section>
+
+    <section id="map" class="tab-pane">
+        <p class="addy">
+            <span><strong>Presidio Golf Course</strong></span><br>
+            <span>300 Finley Rd</span><br>
+            <span>San Francisco, CA 94129</span><br>
+            <span>(415) 561-4653</span><br>
+            <a href="https://www.google.com/maps/place/Presidio+Golf+Course/@37.7895005,-122.4556606,13z/data=!4m2!3m1!1s0x8085872178601d39:0x43b39a416a388f43" target="_blank">
+                Get Directions
+            </a>
+        </p>
+
+        <div id="map-canvas"></div>
+    </section>
+
+    <section id="test2" class="center-block tab-pane">
+      <h2 class="save-text">TEST2!</h2>
+      <h2 class="save-date">Sept. 26, 2015</h2>
+    </section>
+  </div>
+
+    <footer>
+      <div>
+			Copyright © 2014 - Will Huey
+      </div>
+    </footer> 
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/test.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script>
+
+        $('a[data-toggle="tab"]').on('shown.bs.tab', function(){
+          initialize();
+        });
+        //google.maps.event.addDomListener( window, 'load', initialize);
+    
+    </script>
+    
+
+  </body>
+</html>
