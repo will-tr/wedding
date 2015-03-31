@@ -1,6 +1,11 @@
 /*@import url("bootstrap.min.css");*/
 /*@import url("bootstrap-theme.css");*/
 
+@font-face {
+    font-family: GreatVibes;
+    src: url("../fonts/GreatVibes-Regular.otf") format("opentype");
+}
+
 body {
   margin: 0px 0px;
   padding: 00px;
@@ -10,11 +15,11 @@ body {
   color: black;
   font-size: 125%;
   min-width: 320px;
-  
 }
 
 header, footer div {
-    background: #FFFFFF; 
+    background: url('../images/sos.png') repeat;
+
 }
 
 header {
@@ -22,12 +27,13 @@ header {
     position:fixed;
     width:100%;
     z-index:5;
-            background: url('../images/white-emboss.jpg');
 }
 
 header ul li:nth-child(1) {
   padding-left: 5%;
 }
+
+
 
 #nav {
     min-width:400px;
@@ -37,7 +43,12 @@ header ul li:nth-child(1) {
     font-size: 1.5em;
 }
 
-section  #home {
+#home {
+    background:url("../images/pier.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 
 
 }
@@ -52,7 +63,7 @@ section  #home {
 
    // background: yellow;
     background: white;
-    background:url("../images/pier.jpg") no-repeat center center;
+
     background-size: cover;
 
     clear: both;
@@ -96,7 +107,9 @@ section #inner-content {
 section h2 {
     font-size:  400%;
     //font-family: 'Architects Daughter', cursive;
-    font-family: 'Cabin', sans-serif;
+    //font-family: 'Cabin', sans-serif;
+    font-family: GreatVibes, Helvetica, Verdana, Sans-Serif;
+
     color: white;
     text-shadow: 2px 2px #000000;
 }
