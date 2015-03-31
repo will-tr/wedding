@@ -1,3 +1,5 @@
+
+
 function initialize() {
     var platlong = new google.maps.LatLng(37.7908189,-122.460333);
     var mapCanvas = document.getElementById('map-canvas');

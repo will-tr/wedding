@@ -9,6 +9,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico">
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
   </head>
   <body data-spy="scroll">
 
@@ -49,16 +50,17 @@
 
   <div class='tab-content'>
     <section id="home" class="center-block tab-pane active">
-
-      <h2 class="save-text">Save the Date!</h2>
-      <h2 class="save-date">Sept. 26, 2015</h2>
-      <h2 class="save-text">The wedding of Dina and Will</h2>
-
-
+    <div class="container">
+      <div id="inner-content">
+        <h2 class="save-text">Save the Date!</h2>
+        <h2 class="save-date">Sept. 26, 2015</h2>
+        <h2 class="save-text">The wedding of Dina and Will</h2>
+      </div>
+  </div>
     </section>
 
     <section id="map" class="tab-pane">
-
+    <div class="container">
         <p class="addy">
             <span><strong>Presidio Golf Course</strong></span><br>
             <span>300 Finley Rd</span><br>
@@ -70,6 +72,7 @@
         </p>
 
         <div id="map-canvas"></div>
+        </div>
 
     </section>
 
@@ -91,8 +94,9 @@
     <script src="https://maps.googleapis.com/maps/api/js"></script>
     <script>
 
-        $('a[data-toggle="tab"]').on('shown.bs.tab', function(){
-          initialize();
+        $('a[data-toggle="tab"]').on('shown.bs.tab', 
+            function(){
+                initialize();
         });
         //google.maps.event.addDomListener( window, 'load', initialize);
     

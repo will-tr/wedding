@@ -8,14 +8,21 @@ body {
   position: relative;  /* needed for scrollspy.js */
 /*  background: rgb(213, 201, 229); */
   color: black;
+  font-size: 125%;
+  min-width: 320px;
+  
+}
+
+header, footer div {
+    background: #FFFFFF; 
 }
 
 header {
-    background: white;
     padding-top: 40px;
     position:fixed;
     width:100%;
     z-index:5;
+            background: url('../images/white-emboss.jpg');
 }
 
 header ul li:nth-child(1) {
@@ -30,15 +37,40 @@ header ul li:nth-child(1) {
     font-size: 1.5em;
 }
 
-.tab-content section {
-    min-height: 800px;
-    padding-top:100px;
-    overflow: hidden;
+section  #home {
+
+
 }
 
-.tab-content section:not(#map) {
+.tab-content section {
+    height: 1000px;
+    padding-top:100px;
+//    overflow: hidden;
+}
+
+.tab-content section {
+
+   // background: yellow;
+    background: white;
+    background:url("../images/pier.jpg") no-repeat center center;
+    background-size: cover;
+
     clear: both;
     text-align:center;
+
+}
+
+section #inner-content {
+    border: 1px solid white;
+    border-radius:  20px;
+    background:rgba(255,255,255, 0.40);
+    width: 95%;
+    margin: 20px auto;
+    height: 800px;   
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+    padding-top: 20%;
 }
 
 #map .addy {
@@ -62,21 +94,26 @@ header ul li:nth-child(1) {
 }
 
 section h2 {
-    font-family: 'Architects Daughter', cursive;
+    font-size:  400%;
+    //font-family: 'Architects Daughter', cursive;
+    font-family: 'Cabin', sans-serif;
+    color: white;
+    text-shadow: 2px 2px #000000;
 }
 
 #map-canvas {
   height:700px;
+  padding: 20px; 50px;
+  border: 1px solid black;
 }
 
 h2.save-text {
-    font-size: 10vw;
-    color: rgb(110,80,117);    
+//    color: rgb(110,80,117);    
+
 }
 
-h2.save-date {
-    font-size: 14vw;
-    color: #ed9821;
+section h2.save-date {
+    font-size: 700%;
     font-style: italic;
 }
 
@@ -101,5 +138,5 @@ footer {
 }
 
 footer div {
-    margin-left:5%;
+    padding-left:5%;
 }
