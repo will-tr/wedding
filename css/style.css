@@ -44,37 +44,30 @@ header ul li:nth-child(1) {
 }
 
 #home {
-    background:url("../images/pier.jpg") no-repeat center center fixed;
+   // background:url("../images/1920_800_8765.jpg") no-repeat 0px 100px fixed;
+    background:url("../images/1920_padded_top.jpg") no-repeat top center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
-
 }
 
 .tab-content section {
     height: 1000px;
     padding-top:100px;
-//    overflow: hidden;
 }
 
 .tab-content section {
-
-   // background: yellow;
     background: white;
-
     background-size: cover;
-
     clear: both;
-    text-align:center;
-
+    text-align:left;
 }
 
 section #inner-content {
-    border: 1px solid white;
+ //   border: 1px solid white;
     border-radius:  20px;
-    background:rgba(255,255,255, 0.40);
+ //   background:rgba(255,255,255, 0.40);
     width: 95%;
     margin: 20px auto;
     height: 800px;   
@@ -85,12 +78,14 @@ section #inner-content {
 }
 
 #map .addy {
-    margin-left:5%;
+   // margin-left:5%;
+    margin-top: 60px;
+    font-size: 150%;
 }
 
 #map .addy2 {
-
-    margin-left:100px;
+    font-size: 150%;
+    margin-left:80px;
     margin-top:30px;
     /*
     margin-bottom:20px;
@@ -110,12 +105,12 @@ section h2 {
     //font-family: 'Cabin', sans-serif;
     font-family: GreatVibes, Helvetica, Verdana, Sans-Serif;
 
-    color: white;
-    text-shadow: 2px 2px #000000;
+    color: rgb(143, 182, 224);
+    text-shadow: 2px 2px #fff;
 }
 
 #map-canvas {
-  height:700px;
+  height:600px;
   padding: 20px; 50px;
   border: 1px solid black;
 }
