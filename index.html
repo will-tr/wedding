@@ -1,107 +1,659 @@
-<!doctype HTML>
-<html>
-  <head>
-    <meta charset='utf-8'>
-    <title>Home</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico">
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
-  </head>
-  <body data-spy="scroll">
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+     	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+     	<meta name="description" content="LUV - Responsive One Page HTML Wedding Template" >
+      	<meta name="author" content="www.dethemes.com">
+      	<title>Dina and Will dot com</title>
+        <!-- Bootstrap -->
+    	<link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" type="text/css" media="screen" />
+        <!-- Supersized -->
+        <link rel="stylesheet" href="css/supersized/supersized.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="css/supersized/supersized.shutter.css" type="text/css" media="screen" />
+        <!-- Animate -->
+        <link rel="stylesheet" href="css/animate/animate.css" type="text/css" media="screen" />
+        <!-- Magnific Popup -->
+        <link rel="stylesheet" href="css/magnific-popup/magnific-popup.css" type="text/css" media="screen" />
+        <!-- Owl Carousel -->
+        <link rel="stylesheet" href="css/owlcarousel/owl.carousel.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="css/owlcarousel/owl.theme.css" type="text/css" media="screen" />
+        <!-- Font -->
+        <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic' rel='stylesheet' type='text/css'>
+        <!-- Theme CSS -->
+    	<link href="css/style.css" rel="stylesheet" media="screen">
+        <link href="css/skin/orange.css" rel="stylesheet" media="screen">
+        <!--[if IE 9]>
+        <style>
+			#footer_text{
+				margin-bottom: -20px; /*for fixing ie bug */		
+			}
+        </style>    
+		<![endif]-->
+	</head>
 
+	<body>
+    	<!-- PRELOADER -->
+    	<div id="start_preloader"></div>
 
-<!--
-        <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-        </button>
-        <a href="#" class="navbar-brand">DinaAndWill.com</a>
+    	<!--HOME SECTION START-->
+        <section id="home">
+			<div id="logo_wrapper" class="container">
+				<div class="row">
+					<div class="col-md-1">
+                    	<a id="logo_link" href="http://www.dinaandwill.com/">
+                    		<span id="logo" class="animation">
+                        		D&amp;W
+                        	</span>
+                        </a>
+                    </div>
+				</div>
+            </div>
+            <div class="container">
+            	<div id="slide_content" class="row">
+                	<div class="col-md-4 pull-right text-right">
+                    	<div class="heart_row">
+							<span class="glyphicon glyphicon-heart"></span>
+							<span class="glyphicon glyphicon-heart"></span>
+							<span class="glyphicon glyphicon-heart"></span>
+							<span class="glyphicon glyphicon-heart"></span>
+							<span class="glyphicon glyphicon-heart"></span>
+							<span class="glyphicon glyphicon-heart"></span>
+							<span class="glyphicon glyphicon-heart"></span>
+							<span class="glyphicon glyphicon-heart"></span>
+						</div>
+						<div id="slide_text">
+                            <span id="slide_text1">WE ARE</span><br>
+                            <span id="slide_text2">GETTING</span><br>
+                            <span id="slide_text3" >MARRIED</span><br>
+                            <div id="slide_text4">
+                            	09
+                                <span class="glyphicon glyphicon-heart"></span>
+                                26
+                                <span class="glyphicon glyphicon-heart"></span>
+                                15
+                            </div>
+						</div>
+                        <div class="heart_row">
+							<span class="glyphicon glyphicon-heart"></span>
+							<span class="glyphicon glyphicon-heart"></span>
+							<span class="glyphicon glyphicon-heart"></span>
+							<span class="glyphicon glyphicon-heart"></span>
+							<span class="glyphicon glyphicon-heart"></span>
+							<span class="glyphicon glyphicon-heart"></span>
+							<span class="glyphicon glyphicon-heart"></span>
+							<span class="glyphicon glyphicon-heart"></span>
+						</div>
+                    </div>
+                </div>
+            </div>
+            <header>
+            	<nav id="nav" class="navbar navbar-default" role="navigation">
+  					<div class="container">
+    					<!-- Brand and toggle get grouped for better mobile display -->
+    					<div class="navbar-header">
+      						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav_menu">
+        						<span class="sr-only">Toggle navigation</span>
+        						<span class="icon-bar"></span>
+        						<span class="icon-bar"></span>
+        						<span class="icon-bar"></span>
+     						</button>
+   						</div>
 
--->
-  <header>
-    <ul class = "nav nav-tabs active" role="tablist" data-tabs="tabs" id="nav">
-      <li  role="presentation">
-        <a href="#home" data-toggle="tab">
-          When
-          <i class="fa fa-calendar-o"></i>
-        </a>
-      </li>
+    					<!-- Collect the nav links, forms, and other content for toggling -->
+   					 	<div class="collapse navbar-collapse" id="nav_menu">
+     						<ul id="nav_list" class="nav navbar-nav navbar-right">
+        						<li class="active"><a href="#home">Home</a></li>
+                                <li><a href="#couple">About Us</a></li>
+                                <li><a href="#the_day">Day Of</a></li>
+                                <li><a href="#gallery">Gallery</a></li>
+                        <!--    <li><a href="#registry">Registry</a></li> -->
+                                <li><a href="#rsvp">Your Info</a></li>
+     						</ul>
+   						</div><!-- /.navbar-collapse -->
+  					</div><!-- /.container -->
+				</nav>
+            </header>
+        </section><!--END of HOME SECTION-->
+        
+        <!--COUPLE SECTION START-->
+        <section id="couple">
+        	<div class="container">
+            	<!-- TITLE -->
+            	<div class="row">
+                	<div id="wedding_title" class="col-md-12 text-center the_title animation fadeInUp">
+                    	<h2 class="margin0 padding0">FIRST COMES LOVE</h2>
+                        <span class="margin0 padding0 sub_title">THEN COMES MARRIAGE</span>
+                    </div>
+                    <div class="col-md-offset-1"></div>
+                    <div id="wedding_intro" class="col-md-10 col-md-offset-1 text-center animation delay1 fadeInUp">
+                        <span class="glyphicon glyphicon-heart intro_heart"></span>
+                        <span class="intro">Come celebrate with us as we tie the knot, as we stand together with sweaty
+                            hands & open hearts, extending our friendship to include the vows of marriage. Festivities
+                            will begin with the ceremony, dinner, dancing, and happily-ever-afters to follow.</span>
+                    </div>
+                </div><!-- END TITLE -->
+                
+                <div class="row">
+                	<!-- HIS PROFILE -->
+                	<div id="his_profile" class="col-md-6 animation delay1 fadeInLeft">                    	
+                    	<div class="photo_item">
+                        	<div class="photo_item_preview">
+                            	<a href="#">
+                                	<img src="images/will_2_556.jpg" alt="">
+                                </a>
+                           		<!--
+                           		<div class="photo_item_overlay">
+                            		<a class="popup" href="him.html">
+                                    	<span class="icon_background"></span>
+                                    	<span class="glyphicon glyphicon-zoom-in icon_button"></span>
+                                    </a>
+                            	</div>
+                            	-->
+                            </div>
+                        </div>
+                        
+                      	<div class="profile">
+                        	<div class="row">
+                            	<div class="col-md-10 col-sm-10 col-xs-10">
+                                	<h3 class="margin0 padding0">WILL HUEY</h3>
+                                    <span class="margin0 padding0 subname">The Groom</span>
+                                </div>
+                                <div id="male_icon" class="col-md-2 col-sm-2 col-xs-2">
+                                	<img src="images/male_icon.png" alt="">
+                                </div>
+                            </div>
+                            <div class="row profile_text">
+                            	<div class="col-md-12">
+                                	<p>
+                                       <!-- <a class="popup" href="him.html">.....</a> -->
+                                    </p>
+                                </div>
+                            </div>
+                      	</div>                        
+                    </div> <!-- END OF HIS PROFILE -->
+                    
+                    <!-- HER PROFILE -->
+                	<div id="her_profile" class="col-md-6 animation delay1 fadeInRight">                    	
+                    	<div class="photo_item">
+                        	<div class="photo_item_preview">
+                            	<a href="#">
+                                	<img src="images/dina_cow_550.jpg" alt="">
+                                </a>
+                                <!--
+                                <div class="photo_item_overlay">
+                                     <a class="popup" href="her.html">
+                                         <span class="icon_background"></span>
+                                         <span class="glyphicon glyphicon-zoom-in icon_button"></span>
+                                     </a>
+                                 </div>
+                                 -->
+                         </div>
+                     </div>
 
-      <li role="presentation"  id="m" >
-        <a href="#map" data-toggle="tab">
-            Where
-          <i class="fa fa-map-marker"></i>
-        </a>
-      </li>
-      
-      <li role="presentation" >
-        <a href="#test2" data-toggle="tab">Test2
-          <i class="fa fa-map-marker"></i>
-        </a>
-      </li>
-    </ul>
-  </header> 
+                       <div class="profile">
+                         <div class="row">
+                             <div class="col-md-10 col-sm-10 col-xs-10">
+                                 <h3 class="margin0 padding0">DINA NGUYEN</h3>
+                                 <span class="margin0 padding0 subname">The Bride</span>
+                             </div>
+                             <div id="female_icon" class="col-md-2 col-sm-2 col-xs-2">
+                                 <img src="images/female_icon.png" alt="">
+                             </div>
+                         </div>
+                         <div class="row profile_text">
+                             <div class="col-md-12">
+                                 <p>
+                                     <!-- <a class="popup" href="her.html">.....</a> -->
+                                    </p>
+                                </div>
+                            </div>
+                      	</div>                        
+                    </div> <!-- END OF HER PROFILE -->                                        
+                </div>
+            </div>            
+        </section><!--END of COUPLE SECTION-->
+        
+        <!--PHOTO DIVIDER1 SECTION START-->
+        <section>
+        	<div class="container-fluid">
+                <div class="row">
+                    <div id="photo_divider1" class="photo_divider">
+                    </div>
+                </div>
+            </div>
+        </section><!--END of PHOTO DIVIDER1 SECTION-->
+        
+        <!--THE DAY SECTION START-->
+        <section id="the_day">
+        	<div class="container">
+            	<!-- TITLE -->
+            	<div class="row">
+                	<div id="where_when_title" class="col-md-12 text-center the_title animation fadeInUp">
+                    	<h2 class="margin0 padding0">WHEN AND WHERE</h2>
+                        <span class="margin0 padding0 sub_title">OF THE MARRIAGE</span>
+                    </div>
+                    <div class="col-md-offset-1"></div>
+                    <div id="where_when_intro" class="col-md-10 col-md-offset-1 text-center animation delay1 fadeInUp">
+                        <span class="glyphicon glyphicon-heart intro_heart"></span>
+                        <span class="intro"><i>"Autumn ... the year's last, loveliest smile." - William Cullen Bryant,
+                            "Indian Summer"</i></span>
+                    </div>
+                </div><!-- END TITLE -->
+                
+                <!-- LOCATION, DATE&TIME, ACCOMODATION-->
+                <div class="row">
+                	<div class="col-md-4">
+                    	<div id="location" class="box animation fadeInLeft">
+                        	<div>
+                        		<span class="glyphicon glyphicon-map-marker box_icon"></span>
+                    			<span class="box_title">DATE & LOCATION</span>
+                            </div>
+                            <div class="box_text">
+                            	<p>Our wedding will be held on <strong> Saturday September 26th, 2015</strong> at
+                                    the <strong>Presidio Golf Course
+                                        </strong> in San Francisco.</p>
+                            </div>
+                    	</div>
+                    </div>
+                    <div class="col-md-4">
+                    	<div id="date_time" class="box animation delay1 fadeInUp">
+                        	<div>
+                        		<span class="glyphicon glyphicon-time box_icon"></span>
+                    			<span class="box_title">TIME</span>
+                            </div>
+                            <div class="box_text">
+                            	<p>The event will start promptly at <strong> Five O'Clock in the evening</strong>.
+                                    Dinner and dancing to follow.
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
 
-  <div class='tab-content'>
-    <section id="home" class="center-block tab-pane active">
-    <div class="container">
-      <div id="inner-content">
-        <h2 class="save-text">Save the Date!</h2>
-        <h2 class="save-date">Sept. 26, 2015</h2>
-        <h2 class="save-text">The wedding of Dina and Will</h2>
-      </div>
-  </div>
-    </section>
+                            </div>
+                    	</div>
+                    </div>
+                    <div class="col-md-4">
+                    	<div id="accomodation" class="box animation delay2 fadeInRight">
+                        	<div>
+                        		<span class="glyphicon glyphicon-home box_icon"></span>
+                    			<span class="box_title">ACCOMODATIONS</span>
+                            </div>
+                            <div class="box_text">
+                            	<p>We're looking into accommodations at <strong>nearby hotels</strong> for our
+                                    out-of-town guests.  Stay tuned!</p>
+                            </div>
+                    	</div>
+                    </div>
+                </div><!-- END OF LOCATION -->
+                
+                <!-- MAP -->
+                <div class="row">
+                	<div class="col-md-12">
+                    	<div id="location_map" class="animation fadeInUp"></div>
+                    </div>
+                </div><!-- END OF MAP-->
+                
+            </div>
+        </section><!--END of THE DAY SECTION-->
+        
+        <!--PHOTO DIVIDER2 SECTION START-->
+        <section>
+        	<div class="container-fluid">
+                <div class="row">
+                    <div id="photo_divider2" class="photo_divider">
+                    </div>
+                </div>
+            </div>
+        </section><!--END of PHOTO DIVIDER2 SECTION-->
 
-    <section id="map" class="tab-pane">
-    <div class="container">
-        <p class="addy">
-            <span class="big"><strong>Presidio Golf Course</strong></span><br>
-            <span>300 Finley Rd</span><br>
-            <span>San Francisco, CA 94129</span><br>
-            <span>(415) 561-4653</span><br>
-            <a href="https://www.google.com/maps/place/Presidio+Golf+Course/@37.7895005,-122.4556606,13z/data=!4m2!3m1!1s0x8085872178601d39:0x43b39a416a388f43" target="_blank">
-                Get Directions
-            </a>
-        </p>
+        <!--GALLERY-1 SECTION START-->
+        <section id="gallery">
+        	<div class="container">
+            	<!-- TITLE -->
+            	<div class="row">
+                	<div id="gallery1_title" class="col-md-12 text-center the_title animation fadeInUp">
+                    	<h2 class="margin0 padding0">PHOTO GALLERY</h2>
+                        <span class="margin0 padding0 sub_title">MOMENTS CAPTURED IN TIME</span>
+                    </div>
+                    <div class="col-md-offset-1"></div>
+                    <div id="gallery1_intro" class="col-md-10 col-md-offset-1 text-center animation delay1 fadeInUp">
+                        <span class="glyphicon glyphicon-heart intro_heart"></span>
+                        <span class="intro"><i>"A dream you dream alone is only a dream. A dream you dream together is reality." — John Lennon</i></span>
+                    </div>
+                </div><!-- END TITLE -->
 
-        <div id="map-canvas"></div>
-        </div>
+                
+                <!-- GALLERY-2-->
+                <div class="row"> 
+                	<div class="col-md-12"> 
+                    
+                		<div id="gallery2" class="masonry">
+                			
+                            <!-- MASONRY GRID SIZER -->
+                            <div class="grid_sizer"></div>
+                            
+                            <!-- GALLERY ITEM-->
+                			<div class="masonry_col animation fadeIn">
+                    			<div class="photo_item">
+                        			<div class="photo_item_preview">
+                            			<a href="#">
+                                			<img src="images/ferris_355.jpg" alt="">
+                                		</a>
+                           				<div class="photo_item_overlay">
+                                            <a href="images/ferris_1000.jpg">
+                                    			<span class="icon_background"></span>
+                                    			<span class="glyphicon glyphicon-zoom-in icon_button"></span>
+                                   			</a>
+                            			</div>
+                            		</div>
+                        		</div>
+                    		</div><!-- END of GALLERY ITEM-->
+                            
 
-    </section>
+                            
+                            <!-- GALLERY ITEM-->
+                			<div class="masonry_col animation fadeIn">
+                    			<div class="photo_item">
+                        			<div class="photo_item_preview">
+                            			<a href="#">
+                                			<img src="images/church_355.jpg" alt="">
+                                		</a>
+                           				<div class="photo_item_overlay">
+                            				<a href="images/church_600.jpg">
+                                    			<span class="icon_background"></span>
+                                    			<span class="glyphicon glyphicon-zoom-in icon_button"></span>
+                                   			</a>
+                            			</div>
+                            		</div>
+                        		</div>
+                    		</div><!-- END of GALLERY ITEM-->
+                            
+                            <!-- GALLERY ITEM-->
+                			<div class="masonry_col animation fadeIn">
+                    			<div class="photo_item">
+                        			<div class="photo_item_preview">
+                            			<a href="#">
+                                			<img src="images/boba_355.jpg" alt="">
+                                		</a>
+                           				<div class="photo_item_overlay">
+                                            <a href="images/boba_600.jpg">
+                                    			<span class="icon_background"></span>
+                                    			<span class="glyphicon glyphicon-zoom-in icon_button"></span>
+                                   			</a>
+                            			</div>
+                            		</div>
+                        		</div>
+                    		</div><!-- END of GALLERY ITEM-->
+                            
+                            <!-- GALLERY ITEM-->
+                			<div class="masonry_col animation fadeIn">
+                    			<div class="photo_item">
+                        			<div class="photo_item_preview">
+                            			<a href="#">
+                                			<img src="images/niners_355.jpg" alt="">
+                                		</a>
+                           				<div class="photo_item_overlay">
+                                            <a href="images/niners_667.jpg">
+                                    			<span class="icon_background"></span>
+                                    			<span class="glyphicon glyphicon-zoom-in icon_button"></span>
+                                   			</a>
+                            			</div>
+                            		</div>
+                        		</div>
+                    		</div><!-- END of GALLERY ITEM-->
+                            
+                            <!-- GALLERY ITEM-->
+                			<div class="masonry_col animation fadeIn">
+                    			<div class="photo_item">
+                        			<div class="photo_item_preview">
+                            			<a href="#">
+                                			<img src="images/ggb_355.jpg" alt="">
+                                		</a>
+                           				<div class="photo_item_overlay">
+                                            <a href="images/ggb_1000.jpg">
+                                    			<span class="icon_background"></span>
+                                    			<span class="glyphicon glyphicon-zoom-in icon_button"></span>
+                                   			</a>
+                            			</div>
+                            		</div>
+                        		</div>
+                    		</div><!-- END of GALLERY ITEM-->
 
-    <section id="test2" class="center-block tab-pane">
-      <h2 class="save-text">TEST2!</h2>
-      <h2 class="save-date">Sept. 26, 2015</h2>
-    </section>
-  </div>
+                            <!-- GALLERY ITEM-->
+                            <div class="masonry_col animation fadeIn">
+                                <div class="photo_item">
+                                    <div class="photo_item_preview">
+                                        <a href="#">
+                                            <img src="images/wharf_355.jpg" alt="">
+                                        </a>
+                                        <div class="photo_item_overlay">
+                                            <a href='images/wharf_1000.jpg'">
+                                            <span class="icon_background"></span>
+                                            <span class="glyphicon glyphicon-zoom-in icon_button"></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- END of GALLERY ITEM-->
 
-    <footer>
-      <div>
-			Copyright © 2015 - Will Huey
-      </div>
-    </footer> 
-    
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="js/test.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js"></script>
-    <script>
+                            <!-- GALLERY ITEM-->
+                			<div class="masonry_col animation fadeIn">
+                    			<div class="photo_item">
+                        			<div class="photo_item_preview">
+                            			<a href="#">
+                                			<img src="images/colonial_355.jpg" alt="">
+                                		</a>
+                           				<div class="photo_item_overlay">
+                            				<a href="images/colonial_480.jpg">
+                                    			<span class="icon_background"></span>
+                                    			<span class="glyphicon glyphicon-zoom-in icon_button"></span>
+                                   			</a>
+                            			</div>
+                            		</div>
+                        		</div>
+                    		</div><!-- END of GALLERY ITEM-->
+                            
+                            <!-- GALLERY ITEM-->
+                			<div class="masonry_col animation fadeIn">
+                    			<div class="photo_item">
+                        			<div class="photo_item_preview">
+                            			<a href="#">
+                                			<img src="images/heart_355.jpg" alt="">
+                                		</a>
+                           				<div class="photo_item_overlay">
+                            				<a href="images/heart_667.jpg">
+                                    			<span class="icon_background"></span>
+                                    			<span class="glyphicon glyphicon-zoom-in icon_button"></span>
+                                   			</a>
+                            			</div>
+                            		</div>
+                        		</div>
+                    		</div><!-- END of GALLERY ITEM-->
+                           
+						</div><!--END of MASONRY-->
+                   </div><!-- END of GALLERY-2 COL-->
+				</div> <!-- END of GALLERY-2 ROW-->
+                
+			</div>  <!--END of CONTAINER-->
+        </section> <!--END of GALLERY-2 SECTION-->
+        
+        <!--PHOTO DIVIDER6 SECTION START-->
+        <section>
+        	<div class="container-fluid">
+                <div class="row">
+                    <div id="photo_divider6" class="photo_divider">
+                    </div>
+                </div>
+            </div>
+        </section><!--END of PHOTO DIVIDER6 SECTION-->
+        
+        <!--RSVP SECTION START-->
+        <section id="rsvp">
+        	<div class="container">
+            	<!-- TITLE -->
+            	<div class="row">
+                	<div id="rsvp_title" class="col-md-12 text-center the_title animation fadeInUp">
+                    	<h2 class="margin0 padding0">YOUR INFO</h2>
+                        <span class="margin0 padding0 sub_title">KEEP US UP-TO-DATE</span>
+                    </div>
+                    <div class="col-md-offset-1"></div>
+                    <div id="rsvp_intro" class="col-md-10 col-md-offset-1 text-center animation delay1 fadeInUp">
+                        <span class="glyphicon glyphicon-heart intro_heart"></span>
+                        <span class="intro">
+                            Don't miss out on our event because of an old address.  Fill out the form below to ensure we have
+                            all your latest info.
+                        </span>
+                    </div>
+                </div><!-- END TITLE -->
+                <!-- FORM -->
+                <div class="row">
+                    <form action="https://docs.google.com/forms/d/1ONP9vhD5Se-3Phiq4h2SwnI4dznhf2mZmVhBW-hcWUs/formResponse" method="POST"
+                          id="ss-form" target="_self" onsubmit="">
+                        <ol role="list" class="ss-question-list" style="padding-left: 0">
+                            <div class="col-md-6">
+                                <div class="ss-form-question errorbox-good" role="listitem">
+                                    <div dir="ltr" class="ss-item ss-item-required ss-text">
+                                        <div class="ss-form-entry form-group ">
+                                            <label class="ss-q-item-label" for="entry_113516348">
+                                                <div class="ss-q-title">Name
+                                                    <label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
+                                                    <span class="ss-required-asterisk" aria-hidden="true">*</span></div>
+                                                <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
+                                            </label>
+                                            <input type="text" name="entry.113516348" value="" class="ss-q-short form-control" id="entry_113516348"
+                                                   dir="auto" aria-label="Name  " aria-required="true" required="" title="">
 
-        $('a[data-toggle="tab"]').on('shown.bs.tab', 
-            function(){
-                initialize();
-        });
-        //google.maps.event.addDomListener( window, 'load', initialize);
-    
-    </script>
-    
+                                            <div class="error-message" id="1202880844_errorMessage"></div>
 
-  </body>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="ss-form-question errorbox-good" role="listitem">
+                                    <div dir="ltr" class="ss-item ss-item-required ss-text">
+                                        <div class="ss-form-entry form-group">
+                                            <label class="ss-q-item-label" for="entry_946269768">
+                                                <div class="ss-q-title">Email
+                                                    <label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
+                                                    <span class="ss-required-asterisk" aria-hidden="true">*</span></div>
+                                                <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
+                                            </label>
+                                            <input type="text" name="entry.946269768" value="" class="ss-q-short form-control" id="entry_946269768"
+                                                   dir="auto" aria-label="Email  " aria-required="true" required="" title="">
+
+                                            <div class="error-message" id="1601051364_errorMessage"></div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="ss-form-question errorbox-good" role="listitem">
+                                    <div dir="ltr" class="ss-item ss-item-required ss-text">
+                                        <div class="ss-form-entry form-group">
+                                            <label class="ss-q-item-label" for="entry_1860846675">
+                                                <div class="ss-q-title">Phone Number
+                                                    <label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
+                                                    <span class="ss-required-asterisk" aria-hidden="true">*</span></div>
+                                                <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
+                                            </label>
+                                            <input type="text" name="entry.1860846675" value="" class="ss-q-short form-control" id="entry_1860846675"
+                                                   dir="auto" aria-label="Phone Number  " aria-required="true" required="" title="">
+
+                                            <div class="error-message" id="1040489582_errorMessage"></div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="ss-form-question errorbox-good" role="listitem">
+                                    <div dir="ltr" class="ss-item ss-item-required ss-paragraph-text">
+                                        <div class="ss-form-entry form-group">
+                                            <label class="ss-q-item-label" for="entry_307351710">
+                                                <div class="ss-q-title">Address
+                                                    <label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
+                                                    <span class="ss-required-asterisk" aria-hidden="true">*</span></div>
+                                                <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
+                                            </label>
+                    <textarea name="entry.307351710" rows="10" cols="0" class="ss-q-long form-control" id="entry_307351710" dir="auto"
+                              aria-label="Address  " aria-required="true" required=""></textarea>
+
+                                            <div class="error-message" id="1664181291_errorMessage"></div>
+                                            <div class="required-message">*Required question</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12 text-center">
+                                <input type="hidden" name="draftResponse" value="[,,&quot;6189831939163371618&quot;]">
+                                <input type="hidden" name="pageHistory" value="0">
+                                <input type="hidden" name="fbzx" value="6189831939163371618">
+
+                                <div class="ss-item ss-navigate">
+                                    <table id="navigation-table" style="margin:0 auto">
+                                        <tbody>
+                                        <tr>
+                                            <td class="ss-form-entry form-group goog-inline-block" id="navigation-buttons" dir="ltr">
+                                                <input type="submit" name="submit" value="Submit" id="ss-submit"
+                                                       class="jfk-button jfk-button-action btn btn-default btn-lg">
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </ol>
+                    </form>
+
+                </div>
+            </div>
+        </section><!--END of RSVP SECTION-->
+        
+        <!--FOOTER SECTION START-->
+        <section id="footer">
+        	<div class="container-fluid">
+        		<div class="row">
+            		<div id="footer_text" class="col-md-12 text-center">
+                    	Dina and Will Wedding 2015
+                    </div>
+            	</div>
+            </div>
+        </section><!--END of FOOTER SECTION-->
+        
+        
+
+		<!-- jQuery -->
+    	<script src="js/jquery-1.9.1.js"></script>
+        <!-- Device -->
+        <script type="text/javascript" src="js/devicejs/device.min.js"></script>
+        <!-- Preloader -->
+        <script type="text/javascript" src="js/preloader/jquery.queryloader2.js"></script>
+    	<!-- Bootstrap -->
+    	<script src="js/bootstrap/bootstrap.js"></script>        
+        <!-- Supersized -->
+        <script type="text/javascript" src="js/supersized/jquery.easing.min.js"></script>
+        <script type="text/javascript" src="js/supersized/supersized.3.2.7.min.js"></script>
+        <script type="text/javascript" src="js/supersized/supersized.shutter.min.js"></script>
+        <!-- Sticky -->
+        <script type="text/javascript" src="js/sticky/jquery.sticky.js"></script>
+        <!-- One Page Nav -->
+        <script type="text/javascript" src="js/navjs/jquery.nav.js"></script>
+        <!-- NiceScroll -->
+        <script type="text/javascript" src="js/nicescroll/jquery.nicescroll.min.js"></script>
+        <!-- Waypoint -->
+        <script type="text/javascript" src="js/waypoint/waypoints.min.js"></script>
+        <!-- Gmap -->
+        <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+        <script type="text/javascript" src="js/gmap/jquery.gmap.min.js"></script>
+        <!-- Magnific Popup -->
+        <script type="text/javascript" src="js/magnific-popup/jquery.magnific-popup.min.js"></script>
+        <!-- Masonry -->
+        <script type="text/javascript" src="js/masonry/masonry.pkgd.min.js"></script>
+        <!-- RSVP -->
+        <script type="text/javascript" src="js/rsvp.js"></script>
+        <!-- Custom Script -->
+        <script type="text/javascript" src="js/script.js"></script>
+        
+	</body>
 </html>
